@@ -16,12 +16,12 @@
 }
 
 - (NSInteger) addNumber:(NSInteger) number1 toNumber:(NSInteger) number2 {
-    number1 = number1 + number2;
+    number1 = ( number1 + number2 );
     return number1;
 }
 
 - (NSInteger) remainderOfNumber:(NSInteger) dividend dividedByNumber:(NSInteger) divisor {
-    NSInteger remainder = dividend % divisor;
+    NSInteger remainder = ( dividend % divisor );
     return remainder;
 }
 
