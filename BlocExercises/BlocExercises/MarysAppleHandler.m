@@ -33,7 +33,7 @@
 
     NSUInteger cost = 24;
     
-    return (self.getsDiscount) ? ( cost * 0.75 ): ( cost * 1 );
+    return (self.getsDiscount) ? cost * 0.75 : cost * 1;
 }
 
 @end
