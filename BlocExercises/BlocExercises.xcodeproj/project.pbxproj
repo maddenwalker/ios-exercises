@@ -268,7 +268,7 @@
 		931AB0A31945060D00B4FB76 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 931AB0A61945060D00B4FB76 /* Build configuration list for PBXProject "BlocExercises" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,6 +343,7 @@
 		931AB0A71945060D00B4FB76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -394,6 +395,7 @@
 				INFOPLIST_FILE = "BlocExercises/BlocExercises-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bloc.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = xctest;
@@ -434,6 +436,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "BlocExercises/BlocExercises-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bloc.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
