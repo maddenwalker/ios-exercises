@@ -13,15 +13,15 @@
 - (NSString *) itemMaryCanPurchaseForDollars:(NSInteger)dollars {
     NSString *itemToReturn;
 
-    if (dollars <= 4) {
+    if ( dollars <= 4 ) {
         itemToReturn = @"get out of my store";
-    } else if (dollars == 5) {
+    } else if ( dollars == 5 ) {
         itemToReturn = @"have some gum";
-    } else if (dollars == 6) {
+    } else if ( dollars == 6 ) {
         itemToReturn = @"have an apple";
-    } else if (dollars >= 1000 && dollars < 1000000000) {
+    } else if ( dollars >= 1000 && dollars < 1000000000 ) {
         itemToReturn = @"have an Apple computer";
-    } else if (dollars >= 1000000000) {
+    } else if ( dollars >= 1000000000 ) {
         itemToReturn = @"have The Big Apple";
     }
     
@@ -33,7 +33,7 @@
 
     NSUInteger cost = 24;
     
-    return (self.getsDiscount) ? cost * 0.75 : cost * 1;
+    return (self.getsDiscount) ? ( cost * 0.75 ): ( cost * 1 );
 }
 
 @end
