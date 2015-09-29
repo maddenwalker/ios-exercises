@@ -26,6 +26,10 @@
  
  */
 
+@property (strong, nonatomic) NSMutableArray *arrayToRemember;
+@property (copy, nonatomic) NSArray *copiedArrayForLater;
+@property (assign) CGFloat floatToRemember;
+
 /**
  Indicates a mutable array to remember for later.
  
